@@ -4,6 +4,7 @@ const createAccount = document.querySelector('button')
 createAccount.addEventListener('click', validatePassword);
 
 const errorMessage = document.querySelector('.error')
+// const errorMessageTwo = document.querySelector('.errorTwo')
 
 
 function validatePassword() {
@@ -33,3 +34,28 @@ function validatePassword() {
     }
 }
 
+// function validatePasswordLength() {
+//     if (password.value.length < 8) {
+//         password.style.borderRadius = '5px';
+//         password.style.borderColor = 'red';
+//         confirmPassword.style.borderRadius = '5px';
+//         confirmPassword.style.borderColor =  'red';
+
+//         errorMessageTwo.style.display = 'contents'
+//     } else if(password.value.length >= 8) {
+//         password.style.borderRadius = '5px';
+//         password.style.borderColor = 'green';
+//         confirmPassword.style.borderRadius = '5px';
+//         confirmPassword.style.borderColor = 'green';
+
+//         errorMessageTwo.style.display = 'none'
+//     }
+//     else {
+//         password.style.borderRadius = '5px';
+//         password.style.borderColor = 'black';
+//         confirmPassword.style.borderRadius = '5px';
+//         confirmPassword.style.borderColor = 'black';
+
+//         errorMessageTwo.style.display = 'none'
+//     }
+// }

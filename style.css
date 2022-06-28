@@ -1,8 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
-img#main {
+img {
     /* Set rules to fill background */
     min-height: 100%;
     min-width: 1024px;
@@ -16,20 +15,6 @@ img#main {
     top: 0;
     left: 0;
   }
-
-  img#logo {
-    /* Set up proportionate scaling */
-    width: 50%;
-    height: auto;
-      
-    /* Set up positioning */
-    position: fixed;
-    top: 20%;
-    left: 50%;
-    bottom: 50%;
-    opacity: 0.5;
-  }
-  
 .signup {
     /* Set up positioning */
     position: absolute;
@@ -63,16 +48,13 @@ img#main {
     padding: 50px;
     border-radius: 5px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-
     font-weight: 500;
-
     font-size: 12px;
-    
 }
 
 input {
     border-radius: 5px;
-    border: 1px solid black
+    border: 1px solid rgb(134, 134, 134)
 }
 
 input:focus {
@@ -80,9 +62,6 @@ input:focus {
     box-shadow: rgb(228, 171, 171);
     outline: 1px solid rgb(130, 130, 255);
 }
-
-
-
 .bottomSection {
     padding: 20px;
 }
@@ -95,7 +74,7 @@ strong#login {
     color:rgb(154, 210, 212);
 }
 
-.error {
+.error, .errorTwo {
     color: red;
     font-weight: bold;
     font-size: 12px;
