@@ -1,6 +1,9 @@
 # Sign-Up-Form
 Project: Sign Up Form from "The Odin Project"
 
+## Live Preview
+
+## Personal Notes
 Skills Learned:
 1. How to validate passwords through linking and manipulating js
 2. How to use <form>
