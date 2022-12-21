@@ -2,6 +2,7 @@
 Project: Sign Up Form from "The Odin Project"
 
 ## Live Preview
+https://anthonytruongg.github.io/Sign-Up-Form/
 
 ## Personal Notes
 Skills Learned:
